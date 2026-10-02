@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #0B0A08;
+    --surface-dark: #14120F;
+    --border-dark: #1B1814;
+    --gold-primary: #C9A96E;
+    --gold-highlight: #E6D2A5;
+    --text-light: #F5F1E8;
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: var(--font-inter), sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-cormorant), serif;
+  }
+}
